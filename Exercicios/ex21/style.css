@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;           
+}
+h1{
+    box-shadow: inset 5px 3px 7px 1px rgba(0, 0, 0, 0.39);
+}
+
+nav{
+    background-color: rgba(99, 96, 96, 0.767);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.384);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.26);
+}
+article{
+    background-color: lightgrey;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(180, 151, 151);
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
